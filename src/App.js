@@ -12,7 +12,7 @@ import Recipe from './pages/Recipe';
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename="/react-food">
         <Header />
         <main className="container content">
           <Switch>
